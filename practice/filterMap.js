@@ -5,3 +5,8 @@ function squared(array) {
 }
 
 console.log(squared(array));
+
+/**
+ * OUTPUT :
+ [ 25, 16, 25, 49 ]
+ */

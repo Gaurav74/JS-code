@@ -6,14 +6,20 @@ class user {
         this.age = age;
         this.subject = subject;
     }
-     
-     details() {
-    return ` This Candidate name is : ${this.name} and age is ${this.age} and\
+
+    details() {
+        return ` This Candidate name is : ${this.name} and age is ${this.age} and\
      likes ${this.subject}`;
-        }
+    }
 
 }
 
 console.log("hello");
-let gaurav=new user("Gaurav",24,"maths");
+let gaurav = new user("Gaurav", 24, "maths");
 console.log(gaurav.details());
+
+/**
+ * OUTPUT :
+ hello
+  This Candidate name is : Gaurav and age is 24 and     likes maths
+ */

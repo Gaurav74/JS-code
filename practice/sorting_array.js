@@ -11,3 +11,16 @@ if > 0 then  b will come first.
 */
 array.sort((a, b) => { return a - a });
 console.log(array);
+
+/**
+ * OUTPUT :
+ This is before sorting.....
+ [
+   5,  4, 65, 86,
+  68, 62, 56,  6
+ ]
+ [
+   5,  4, 65, 86,
+  68, 62, 56,  6
+ ]
+ */

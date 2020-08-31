@@ -25,3 +25,10 @@ doubleEquals();
 console.log("-------------------Now three equals -----------------");
 threeEquals();
 
+/**
+ * OUTPUT :
+ it is equal to number
+ it is also equal to '3'
+ -------------------Now three equals -----------------
+ It is equal to number
+ */

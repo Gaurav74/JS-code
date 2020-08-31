@@ -14,3 +14,12 @@ console.log("plus :");
 console.log(string.match(plusPattern));
 console.log("count : ");
 console.log(string.match(countPattern));
+
+/**
+ * OUTPUT :
+[ 'ooooooo', 'oooo' ]
+plus :
+[ 'ooooooo', 'oooo' ]
+count :
+[ 'oooo', 'oooo' ]
+ */

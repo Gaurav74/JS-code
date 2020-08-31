@@ -18,3 +18,9 @@ let female = new person("female");
 
 console.log(male.genderType);
 console.log(female.genderType);
+
+/**
+ * OUTPUT :
+ gauravkumar
+ hello!factorial is 120 fibo number is 21 concatening is gauravkumar
+ */

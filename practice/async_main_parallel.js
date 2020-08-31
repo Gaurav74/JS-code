@@ -15,3 +15,17 @@ async function main() {
     }
 }
 main();
+
+/**
+ * OUTPUT :
+process 1 Started :
+process 2 Started :
+process 2 ended: 3004.886ms
+
+process 1 ended: 5011.414ms
+
+process returned 1 :  process 1.
+process returned 2 :  process 2.
+
+ total running time : 5051.817ms
+ */

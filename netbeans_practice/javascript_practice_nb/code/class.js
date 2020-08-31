@@ -4,12 +4,17 @@ class Project {
         this.name = topic;
         this.money = money;
     }
-     info() {
+    info() {
         console.log(`info is name: ${this.name} and money spent ${this.money} :${this.point} `);
     }
 
 }
 
-let extension=new Project("chrome",2000);
-Object.assign(extension,{point :1});
+let extension = new Project("chrome", 2000);
+Object.assign(extension, { point: 1 });
 extension.info();
+
+/**
+ * OUTPUT :
+ info is name: chrome and money spent 2000 :1
+ */

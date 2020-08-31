@@ -5,3 +5,8 @@ if (a < b) {
 } else {
   console.log("b is greater");
 }
+
+/**
+ * OUTPUT :
+ b is greater
+ */

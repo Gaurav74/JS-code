@@ -16,3 +16,10 @@ try {
 } finally {
     console.log("bye ....");
 }
+
+/**
+ * OUTPUT :
+ 0.5
+Error: not a number
+bye ....
+ */

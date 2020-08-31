@@ -11,3 +11,17 @@ console.log((typeof a) === Number);
 console.log(a == NaN);
 console.log(a < b);
 console.log("zero equivalence", 0 == undefined);
+
+/**
+ * OUTPUT :
+ 3
+27
+12
+0.3333333333333333
+3 9
+number
+false
+false
+true
+zero equivalence false
+ */

@@ -9,7 +9,7 @@ function collect(name) {
     return fact;
   }
 
-  const fibonacci = function(num) {
+  const fibonacci = function (num) {
     if (num == 1) {
       return 1;
     }
@@ -23,6 +23,12 @@ function collect(name) {
     console.log(String(a) + String(b));
     return a + b;
   };
-  return `${name}!factorial is ${factorial(5)} fibo number is ${fibonacci(8)} concatening is ${concat("gaurav","kumar")}`;
+  return `${name}!factorial is ${factorial(5)} fibo number is ${fibonacci(8)} concatening is ${concat("gaurav", "kumar")}`;
 }
 console.log(collect("hello"));
+
+/**
+ * OUTPUT :
+ gauravkumar
+ hello!factorial is 120 fibo number is 21 concatening is gauravkumar
+ */

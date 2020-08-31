@@ -21,3 +21,22 @@ let num = 4;
 do {
   console.log(num++);
 } while (num < 9);
+
+/**
+ * OUTPUT :
+ for loops
+ 1
+ 2
+ 3
+ while loops
+ 5
+ 6
+ 7
+ 8
+ do while loops
+ 4
+ 5
+ 6
+ 7
+ 8
+ */

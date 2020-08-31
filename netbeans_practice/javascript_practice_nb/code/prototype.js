@@ -3,15 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-let guy={
-    say(line){
+let guy = {
+    say(line) {
         console.log(`guy says  ${line} and sex : ${this.gender}`);
     }//,{["name","gaurav","gender","male"]}
 };
-Object.assign(guy,{gender:"male"});
+Object.assign(guy, { gender: "male" });
 guy.say("hello boy");
-console.log(Object.getPrototypeOf(guy.say)==Function.prototype);
-let gaurav=Object.create(guy);
-gaurav.gender="Male";
+console.log(Object.getPrototypeOf(guy.say) == Function.prototype);
+let gaurav = Object.create(guy);
+gaurav.gender = "Male";
 gaurav.say("hell from gaurav");
-console.log(Object.getPrototypeOf(guy.gender)==Object.getPrototypeOf(gaurav.gender));
+console.log(Object.getPrototypeOf(guy.gender) == Object.getPrototypeOf(gaurav.gender));
+
+/**
+ * OUTPUT :
+ guy says  hello boy and sex : male
+ true
+ guy says  hell from gaurav and sex : Male
+ true
+ */

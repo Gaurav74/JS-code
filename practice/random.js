@@ -7,3 +7,12 @@ let i = 5;
 while (i-- > 0) {
     console.log(generateRandom());
 }
+
+/**
+ * OUTPUT :
+ 3
+ 4
+ 3
+ 3
+ 9
+ */

@@ -22,3 +22,9 @@ function nameAge({ name, age }) {
 
 nameAge(man);
 printfemale(female);
+
+/**
+ * OUTPUT :
+ My name is gaurav. My age is 23.
+ This gender is female and age is 23
+ */

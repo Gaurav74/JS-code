@@ -8,3 +8,9 @@ function parseStringToIntRadix(str, radix) {
 
 console.log(typeof parseStringToInt("25"), parseStringToInt("25"));
 console.log(parseStringToIntRadix("1101", 2));
+
+/**
+ * OUTPUT :
+ number 25
+ 13
+ */
